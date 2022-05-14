@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A42CFA3282F8929000546E3 /* RGBCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42CFA2282F8929000546E3 /* RGBCircle.swift */; };
 		0AF44C59282CF8F500DF823A /* RGBTrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF44C58282CF8F500DF823A /* RGBTrafficLightApp.swift */; };
 		0AF44C5B282CF8F500DF823A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF44C5A282CF8F500DF823A /* ContentView.swift */; };
 		0AF44C5D282CF8F900DF823A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF44C5C282CF8F900DF823A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A42CFA2282F8929000546E3 /* RGBCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBCircle.swift; sourceTree = "<group>"; };
 		0AF44C55282CF8F500DF823A /* RGBTrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBTrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF44C58282CF8F500DF823A /* RGBTrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBTrafficLightApp.swift; sourceTree = "<group>"; };
 		0AF44C5A282CF8F500DF823A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				0AF44C58282CF8F500DF823A /* RGBTrafficLightApp.swift */,
 				0AF44C5A282CF8F500DF823A /* ContentView.swift */,
+				0A42CFA2282F8929000546E3 /* RGBCircle.swift */,
 				0AF44C5C282CF8F900DF823A /* Assets.xcassets */,
 				0AF44C5E282CF8F900DF823A /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				0AF44C5B282CF8F500DF823A /* ContentView.swift in Sources */,
 				0AF44C59282CF8F500DF823A /* RGBTrafficLightApp.swift in Sources */,
+				0A42CFA3282F8929000546E3 /* RGBCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
